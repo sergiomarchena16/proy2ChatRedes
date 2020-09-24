@@ -155,7 +155,7 @@ if __name__ == '__main__':
     xmpp.register_plugin('xep_0066')  # Out-of-band Data
     xmpp.register_plugin('xep_0077')  # In-band Registration
     xmpp.register_plugin('xep_0199')  # Ping
-    # xmpp['xep_0077'].force_registration = True
+    xmpp['xep_0077'].force_registration = True
 
     # authentication over an unencrypted connection
     xmpp['feature_mechanisms'].unencrypted_plain = True
@@ -163,7 +163,7 @@ if __name__ == '__main__':
 
     # Server connection
     # if xmpp.connect():
-    if xmpp.connect(('redes2020.xyz', 5222)):
+    if xmpp.connect(('@redes2020.xyz', True)):
         xmpp.process(block=False)  # True or false?
         # Principal menu
         while (1):
