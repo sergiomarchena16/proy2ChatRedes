@@ -1,6 +1,5 @@
 # Proyecto 2 de Redes (XMPP Chat)
-## Sergio Marchena
-## 16387
+## Sergio Marchena 16387
 
 
 ## Installation
