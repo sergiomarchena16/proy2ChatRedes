@@ -7,7 +7,7 @@
 pip install -r requirements.txt
 ```
 ```
-python xmpp_protocol.py
+python main.py
 ```
 
 ### Login
